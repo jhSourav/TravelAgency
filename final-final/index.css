@@ -1,0 +1,425 @@
+*{
+	padding: 0;
+	margin: 0
+}
+
+
+a {
+    text-decoration: none
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.top{
+    display: block;
+    height: 30px;
+    width: 30px;
+    background-color: #0f8582;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    position: fixed;
+    right:16px;
+    bottom: 20px;
+    z-index: 999;
+    cursor: pointer;
+    display: none
+}
+.sticky{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    transition: all 0.5s linear;
+    
+}
+.top i{
+    color: #fff
+}
+.sec_p {
+    padding: 100px 0;
+}
+
+#full_nav {
+    background-color: #fff
+}
+.navbar-brand p{
+	color: #24d921;
+	font-family: 'Lobster', cursive;
+	border-right: 2px solid blue;
+	border-left: 2px solid #00abff;
+	padding: 0px 13px;
+}
+.navbar_ul li a {
+    color: #000!important;
+    font-weight: 600;
+    font-size: 14px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar_ul li a:focus{
+    color: #cfc91d!important
+}
+
+.navbar .ki{
+	color: red
+}
+
+
+#full_banner{
+    background:url(images/The-Correct-Way-Of-Drinking-Water.jpg)center center;
+    background-size: cover;
+    height: 700px;
+    position: relative
+}
+
+.full_slide:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(114, 98, 104, 0.03);
+}
+
+.banner_content h1 {
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.banner_content h2 {
+    font-size: 57px;
+    color: #504cb7;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    font-weight: 800
+}
+
+.banner_content p {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.banner_content img {
+    margin: 51px 0;
+    display: inline-block
+}
+
+.banner_content a,
+.main_form button {
+    padding: 10px 42px;
+    background: #cfc91d;
+    border-radius: 0px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #0b1016;
+    display: inline-block;
+}
+
+.banner_content a:hover {
+    background-color: #02918c;
+    color: #fff;
+    border-radius: 10px;
+}
+/*full about*/
+
+.abtcont_img i{
+	padding-left:10px;
+	color: #000;
+	font-size: 36px;
+}
+.sec_title h2 {
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c
+}
+
+.sec_title p span {
+    font-weight: 800
+}
+
+.abt_detls h4 {
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287
+}
+
+.abt_detls p {
+    font-size: 11px;
+}
+
+.col_brdr {
+    border-right: 1px solid #7e8287
+}
+
+.abt_cont a img {
+    display: inline-block;
+    transition: all 0.5s linear;
+}
+
+.abt_slick .col_brdr:last-of-type {
+    border-right-style: none
+}
+
+.abt_cont:hover .abt_detls h4 {
+    color: #cfc91d
+}
+
+.abt_cont:hover .abtcont_img a img {
+    transform: rotate(360deg)
+}
+
+
+/** service part css **/
+.ptag{
+	font-size: 12px
+}
+#serv_full {
+	position:relative;
+}
+.srv-img {
+	position: absolute;
+	left: -7%;
+	bottom: -224px;
+}
+.pani i{
+	padding-left: 59px;
+	color: #282322;
+	font-size: 36px;
+}
+
+/*
+    background: url(../images/c.jpg) left top no-repeat;
+    background-size: cover
+*/
+/*work*/
+.full-work{
+	padding-top: 150px;
+}
+.work {
+    text-align: center;
+    padding: 30px 0;
+	
+}
+.work h1{
+	 margin: 0 auto;
+}
+.work p {
+    margin: 0 auto;
+    padding-top: 15px;
+}
+.active{
+	color: red;
+	background-color: #badede;
+	padding: 2px 14px;
+	border-radius: 6px;
+}
+.filterBtn {
+    text-align: center;
+    padding: 20px 0;
+	padding-left: 319px;
+}
+
+.filterBtn button {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+	background-color: #f1e8e8;
+	padding-right: 21px;
+	margin-right: 5px;
+}
+
+.filterBtn button:hover {
+    cursor: pointer;
+    background: #1d7c93;
+    color: #fff;
+}
+
+.com {
+    position: relative;
+    overflow: hidden;
+    padding: 3px 3px;
+}
+
+.com img {
+    width: 100%;
+}
+
+.filter {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.filter a {
+    padding: 10px 15px;
+    background: #10a594;
+    border-radius: 10px;
+    border: 0;
+    text-decoration: none;
+    color: #fff;
+    transition: all linear 0.5s;
+}
+
+.filter a:hover {
+    background: #0d574e;
+}
+
+.filter-images {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(9, 50, 52, 0.75);
+    text-align: center;
+    transform: scaleX(0);
+    transition: all 0.5s linear;
+}
+
+.filter_overlay a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.com:hover .filter-images {
+    display: block;
+    transform: scaleX(1);
+    cursor: pointer;
+    margin: 3px 3px;
+}
+
+.filter_overlay {
+    padding: 15% 0;
+}
+
+.filter_overlay h3 {
+    color: #fff;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.filter_overlay a i {
+    color: #dd5050;
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+
+/*====filter end====*/
+/*
+.ima img{
+	border: 1px solid #ccc
+}
+.ima img:before{
+	border: 1px solid #ccc
+}
+*/
+
+
+
+
+
+input{
+	color: #fff
+}
+#full_contact {
+	 background: url(../images/The-Correct-Way-Of-Drinking-Water.jpg) center center no-repeat;
+	position: relative
+}
+#full_contact:before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.main_form .form-control {
+    background-color: transparent;
+    border-radius: 0;
+    border-style: none;
+    border-bottom: 1px solid #fff;
+    text-align: center
+}
+
+.main_form .form-control:focus {
+    border-color: #02918c;
+    box-shadow: none;
+}
+
+#full_copyright {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+#full_copyright p {
+    margin-bottom: 0;
+    color: #fff;
+}
+
+/*countdown*/
+
+
+
+
+.features-dwn{
+	background-color: #86c4c2;
+	padding: 30px 0
+}
+.dwnm-img{
+	float: left
+}
+.dwnm-img img{
+	padding:30px 20px
+}
+.dwn-txt{
+	float: left;
+	padding-top: 20px;
+}
+.dwn-txt p{
+	font-size: 10px
+}
+/** responsive css start **/
+
+@media (max-width: 575px) {
+    .banner_content h1 {
+        font-size: 15px;
+    }
+    .banner_content h2 {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+    .banner_content p {
+        font-size: 13px;
+    }
+    .full_slide {
+        height: 300px;
+        position: relative
+    }
+    .abt_detls p {
+        font-size: 16px;
+    }
+    .col_brdr {
+        border-style: none
+    }
+    .sec_title p {
+        padding: 0;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar_ul {
+        text-align: center
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+@media (min-width: 1200px) {}
